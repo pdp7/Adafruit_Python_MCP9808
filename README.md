@@ -13,6 +13,14 @@ sudo apt-get update
 sudo apt-get install build-essential python-dev python-smbus
 ````
 
+This driver requires that you have previously installed the
+[Adafruit_Python_GPIO](https://github.com/adafruit/Adafruit_Python_GPIO) package.
+```
+git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
+cd Adafruit_Python_GPIO
+sudo python setup.py install
+```
+
 Then download the library by clicking the download zip link to the right and unzip the archive somewhere on your Raspberry Pi or Beaglebone Black.  Then execute the following command in the directory of the library:
 
 ````
